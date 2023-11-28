@@ -7,7 +7,7 @@ One of the main advantages of using SVMs for image classification is that they c
 In machine learning where the model is trained by input data and expected output data.
 To create such a model, it is necessary to go through the following phases:
 
-1.Import required libraries
+1.Import required libraries.        
 
 2.Load the image and convert it to a dataframe.
 
