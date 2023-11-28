@@ -1,22 +1,18 @@
-In order to classify an image using an SVM, we first need to extract features from the image. These features can be the color values of the pixels, edge detection, or even the textures present in the image. Once the features are extracted, we can use them as input for the SVM algorithm.
-
-The SVM algorithm works by finding the hyperplane that separates the different classes in the feature space. The key idea behind SVMs is to find the hyperplane that maximizes the margin, which is the distance between the closest points of the different classes. The points that are closest to the hyperplane are called support vectors.
+Image classification is one of the classical image processing problems. There are various approaches such as Support Vector Machine, Artificial Neural Networks, Convolutional Neural Networks, K-Nearest Neighbors and Decision Tree for solving this problem. Here Support Vector Machine (SVM) is used to classify Images.
 
 One of the main advantages of using SVMs for image classification is that they can effectively handle high-dimensional data, such as images. Additionally, SVMs are less prone to overfitting than other algorithms such as neural networks.
 
-In machine learning where the model is trained by input data and expected output data.
-To create such a model, it is necessary to go through the following phases:
+Image Classification with SVM
 
-1.Import required libraries.        
+Objective: The primary goal of image classification with SVM is to teach a computer to recognize and categorize images into predefined classes based on their visual features.
 
-2.Load the image and convert it to a dataframe.
+Key Steps:
+1. Data Collection: Gather a dataset of images, with each image labeled according to its class. images would be labeled as 'cat', 'dog', 'horse' or 'human'
 
-3.separate input features and targets.
+2. Feature Extraction: Convert each image into a set of numerical features that capture its characteristics.
 
-4.Split train and test value.
+3. Data Preprocessing: Normalize and standardize the feature vectors to ensure they are on a common scale, which is essential for SVM's performance.
 
-5.Build and train the model.
+4. Training: Use the labeled images to train the SVM model. SVM aims to find the hyperplane that best separates different classes while maximizing the margin.
 
-6.Model evaluation.
-
-7.Prediction.
+5. Testing and Evaluation: Evaluate the trained SVM model's performance by inputting new, unlabeled images. The model predicts the class of these images, and its accuracy is assessed based on the actual labels.
