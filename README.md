@@ -8,9 +8,15 @@ In machine learning where the model is trained by input data and expected output
 To create such a model, it is necessary to go through the following phases:
 
 1.Import required libraries
+
 2.Load the image and convert it to a dataframe.
+
 3.separate input features and targets.
+
 4.Split train and test value.
-5.Build and train the model
+
+5.Build and train the model.
+
 6.Model evaluation.
-7.Prediction
+
+7.Prediction.
